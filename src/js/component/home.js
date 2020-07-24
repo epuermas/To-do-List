@@ -56,7 +56,7 @@ export class Home extends React.Component {
 		return (
 			<section className="todoapp">
 				<header className="header">
-					<h1>todo list</h1>
+					<h1>To-do List</h1>
 					<form onSubmit={this.handleFormSubmit.bind(this)}>
 						<input
 							autoFocus={true}
